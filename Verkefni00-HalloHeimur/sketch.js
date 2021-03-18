@@ -7,6 +7,7 @@ function setup(){
     fill(0);
     textSize(20);
     text("Halló heimur",200,40);
+    text("Ég hef ekki þolinmæði í þetta",0,20);
 }
 
 function setup() {
