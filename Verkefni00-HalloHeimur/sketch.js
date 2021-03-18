@@ -1,32 +1,11 @@
 // Hér kemur kóðinn þinn:
 function setup(){
-    createCanvas(300,300);
-    background(0,0,0);
+    createCanvas(500,500);
+    background(200,0,0);
     fill(150);
     ellipse(100,100,50,50);
     fill(0);
-    textSize(5);
-    text("Halló heimur",0,40);
-    text("Ég skil ekki neitt",0,0);
-}
+    textSize(50);
+    text("Halló heimur",100,200);
 
-function setup() {
-  createCanvas(400, 400);
-  background(255,20,0);
-  frameRate(4);
-}
-
-function draw() {
-  fill(random(0,255));
-  ellipse(200,200,50,50);
-}
-
-function setup(){
-    createCanvas(300,300);
-    background(0,255,0);
-    fill(150);
-    ellipse(100,100,50,50);
-    fill(0);
-    textSize(20);
-    text("Halló heimur",200,40);
 }
