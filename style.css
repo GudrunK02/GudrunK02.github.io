@@ -9,16 +9,16 @@ body {
 }
 
 h1 {
-  color: #00FF00;
-  background-color: #888888;
+  color: #00F000;
+  background-color: #123456;
   font-family: Helvetica, sans-serif;
   font-style: bold;
 }
 
 h2 {
-  color: #00FFFF;
+  color: #00FFF0;
   font-style: oblique;
-  text-align: center;
+  text-align: right;
   border: 3px solid green;
 }
 
