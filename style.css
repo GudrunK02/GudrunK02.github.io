@@ -4,7 +4,7 @@ Til þess að læra að gera eitthvað, prófaðu að leita á google af því s
 "how to change link color." */
 
 body {
-  background-color: #0000;
+  background-color: #000011;
   color: #FFFFAA;
 }
 
@@ -19,7 +19,7 @@ h2 {
   color: #00FFF0;
   font-style: oblique;
   text-align: right;
-  border: 3px solid green;
+  border: 3px solid blue;
 }
 
 a {
