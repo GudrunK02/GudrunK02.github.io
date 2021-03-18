@@ -2,7 +2,7 @@
 
 function setup() {
   createCanvas(400, 400);
-  background(0,255,0);
+  background(255,20,0);
   frameRate(4);
 }
 
