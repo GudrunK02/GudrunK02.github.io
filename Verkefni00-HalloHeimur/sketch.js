@@ -13,5 +13,6 @@ function setup(){
     fill(0);
     textSize(50);
     text("Halló heimur",100,250);
-
+    textSize(75);
+    text("Góðann daginn",300,450);
 }
