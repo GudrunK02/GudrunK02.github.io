@@ -1,7 +1,7 @@
 // Hér kemur kóðinn þinn:
 function setup(){
-    createCanvas(1000,600); //bakgrunnur
-    background(250,0,250);
+    createCanvas(1500,800); //bakgrunnur
+    background(102,178,255);
     //texti 1
     textSize(50);
     fill(0)
@@ -18,9 +18,9 @@ function setup(){
     fill(102,0,51)
     rect(70,252,350,15);
     //texti 2 og rétthyrningur utan um hann
-    fill(71,206,188)
-    stroke(250,0,0)
+    fill(153,0,153)
     rect(280,355,550,140);
+    stroke(0,255,255)
     fill(0)
     textSize(75);
     text("Góðan daginn",300,450);
