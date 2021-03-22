@@ -23,7 +23,7 @@ function setup(){
     rect(280,355,550,140);
     fill(0)
     textSize(75);
-    text("Góðann daginn",300,450);
+    text("Góðan daginn",300,450);
 
 
 }
