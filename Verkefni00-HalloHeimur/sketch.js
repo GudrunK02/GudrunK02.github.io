@@ -6,13 +6,6 @@ function setup(){
     textSize(50);
     fill(0)
     text("Halló heimur",100,250);
-
-
-
-
-
-
-
     //hringir og rétthyrningar
     fill(0,0,200);
     ellipse(100,100,100,100);
@@ -22,7 +15,7 @@ function setup(){
     ellipse(400,100,50,50);
     fill(208,245,27)
     rect(600,150,150,80);
-    fill(204,255,255)
+    fill(102,0,51)
     rect(70,252,350,15);
     //texti 2 og rétthyrningur utan um hann
     fill(71,206,188)
