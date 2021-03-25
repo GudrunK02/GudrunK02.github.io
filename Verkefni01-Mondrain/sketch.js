@@ -2,14 +2,15 @@
 function setup(){
     createCanvas(1500,800);
     background(0);
-    //hvítur bakgrunnur
+    stroke(25,25,25)
+    //hvítur kassi
     fill(225,239,237);
     rect(0,0,600,600);
     //rauður kassi
     fill(215,0,0)
     rect(0,0,254,319)
     //svartar línur
-    fill(0)
+    fill(25,25,25)
     rect(255,0,12,600);
     rect(0,320,600,12);
     rect(268,563,282,14);
