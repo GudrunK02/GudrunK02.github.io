@@ -1,7 +1,7 @@
 // Hér kemur kóðinn þinn:
 function setup(){
     createCanvas(1000,500); //bakgrunnur
-    frameRate(0,8);
+    frameRate(0,9);
 
 }
 
@@ -20,6 +20,8 @@ function setup(){
     ellipse(random(350,600),random(250,100), 30,30);
       fill(194,70,0);
     ellipse(random(350,600),random(250,100),35,25);
+      fill(170,0,0)
+    rect(random(350,600),random(250,100),20,40);
       fill(50,45,40);
     triangle(500,200,200,500,800,500);
       noStroke();
