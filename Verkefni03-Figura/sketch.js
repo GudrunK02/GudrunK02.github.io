@@ -7,11 +7,12 @@ function setup() {
 }
 function draw() {
   background(122,126,170);
+  noStroke()
   // Teiknum búkinn
-  fill(236,36,94);
+  fill(255,153,153);
   ellipse(mouseX,mouseY,250,220,bukur);
   // Teiknum nefið
-  fill(255);
+  fill(255,204,204);
   ellipse(mouseX - 1/bukur,mouseY + 25, 110,90);
   // Teiknum nasir
   fill(100);
@@ -26,10 +27,13 @@ function draw() {
   ellipse (mouseX - 51 - 1/bukur,mouseY - 46 , 9,9);
   ellipse (mouseX + 49 - 1/bukur,mouseY - 46, 9,9);
   // Teiknum eyru
-  stroke(255,0,0)
-  triangle(mouseX - 51 - 1/bukur,mouseY - 46 , 200)
-  triangle(mouseX + 49 - 1/bukur,mouseY - 46, 200)
-
+  fill(255,153,153)
+  triangle(mouseX - 110- 1/bukur,mouseY - 30- 1/bukur,mouseX-50- 1/bukur,mouseY-100- 1/bukur,mouseX-120- 1/bukur,mouseY-130- 1/bukur)
+  triangle(mouseX + 110 - 1/bukur,mouseY - 30 - 1/bukur,mouseX+50- 1/bukur,mouseY-100- 1/bukur,mouseX+120- 1/bukur,mouseY-130- 1/bukur)
+    //Innri eyru
+  fill(255,204,204)
+  triangle(mouseX-100-1/bukur,mouseY-70-1/bukur,mouseX-70-1/bukur,mouseY-95-1/bukur,mouseX-105-1/bukur,mouseY-110- 1/bukur)
+  triangle(mouseX+100-1/bukur,mouseY-70-1/bukur,mouseX+70-1/bukur,mouseY-95-1/bukur,mouseX+105-1/bukur,mouseY-110- 1/bukur)
 }
 
 function mousePressed() {
