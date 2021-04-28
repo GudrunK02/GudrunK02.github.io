@@ -6,7 +6,7 @@ function setup() {
   frameRate(2);
   colorMode(HSB);
 }
-
+//kassar
 function draw() {
   for(var x = 400; x < 1030; x = x+30){
     for(var y=200; y < 600; y = y+30){
@@ -14,7 +14,7 @@ function draw() {
       rect(x,y, 30,30);
   }
   }
-
+//glæru hringirnir
   for(var x = 400; x < 1090; x = x+90){
     for(var y=200; y < 630; y = y+30){
       ellipse(x,y,45,50);
@@ -23,6 +23,7 @@ function draw() {
 
   }
   }
+  //lituðu hringirnir
   for(var x = 400; x < 1044; x = x+22){
     for(var y=200; y < 660; y = y+60){
       fill(random(0,360),40,150);
