@@ -1,7 +1,7 @@
 // Hér kemur kóðinn þinn:
 function setup() {
   createCanvas(1500,900);
-  background(255,255,0);
+  background(205,230,255);
   noStroke();
   frameRate(2);
   colorMode(HSB);
